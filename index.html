@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test your reading speed</title>
+    <link href="assets/css/lib/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/wpm.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lato:300" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Test your reading speed</h1>
+        </div>
+        <div class="row">
+            <button id="btnStart">Start test</button>
+            <div>
+                <p id="wpmText"></p>
+            </div>
+            <button id="btnStop" type="button" data-toggle="modal" data-target="#myModal">I finished!</button>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/js/lib/bootstrap.min.js"></script>
+    <script src="assets/js/wpm.js"></script>
+
+</body>
+</html>

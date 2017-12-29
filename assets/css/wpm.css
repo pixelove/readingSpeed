@@ -1,0 +1,52 @@
+body, html {
+    font-family: 'Crimson Text', serif;
+    color: #596174;
+    font-size: 1em;
+    height: auto;
+    width: auto;
+    background: #f0f0f0;
+}
+
+h1 {
+    font-size: 2.4em;
+    text-align: center;
+}
+
+#wpmText {
+    color: #000000;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    display: none;
+}
+
+#btnStop {
+    display: none;
+}
+
+button {
+    color: #017cf6;
+    font-size: 1.4em;
+    background: none;
+    border: none;
+    margin: 50px 0;
+    align-content: center;
+    padding: 6px;
+    border: 2px solid #017cf6;
+    border-radius: 0;
+}
+
+button:hover {
+    color: #8bbff4;
+    border: 2px solid #8bbff4;
+    
+}
+
+button:focus {
+    outline: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+}
